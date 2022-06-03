@@ -13,7 +13,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ulob9bo', 'template_tpqkoe1', form.current, 'ExORFUf10Mtc7BtUc')
+    emailjs.sendForm('<service>', '<template>', form.current, '<id>')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
