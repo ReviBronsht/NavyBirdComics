@@ -11,7 +11,7 @@ app.use(express.json());
 const path = require('path');
 
 // connection to mongodb atlas via mongoose connect
-mongoose.connect('mongodb+srv://navybird_28:aPC5L89KuqqMH6b@cluster0.3e9zc.mongodb.net/navyDB?retryWrites=true&w=majority', {
+mongoose.connect('<mongodb connection string>', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(()=>{
