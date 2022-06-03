@@ -3,8 +3,8 @@ import CustomForm from "./customform";
 
 // sets up mailing component using mail chimp subscribe, uses custom form to create a custom form for it
 export default function Mailing({mTitle,mText,mImg}) {
-    const u = "5df7804ee0c6fb59c8bdf4d1a";
-    const id = "d58b7efbcb";
+    const u = "<u>";
+    const id = "<id>";
     const postUrl = `https://gmail.us20.list-manage.com/subscribe/post?u=${u}&id=${id}`;
 
   return (
