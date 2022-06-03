@@ -1,0 +1,95 @@
+.succesMsg {
+    color:lawngreen;
+    position: absolute;
+}
+
+.contactContainer{
+    display: flex;
+    margin-left: 10%;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 150%;
+}
+
+.submitTD{
+    padding-left: 40%;
+}
+
+textarea{
+    height: 150px;
+}
+
+.messageLabel{
+    position: relative;
+    bottom: 65px;
+}
+.contactInfo {
+    margin-left: 15%;
+    overflow-wrap: normal;
+    text-align: left;
+}
+
+.contactBird{
+    width: 20%;
+    float: left;
+    margin-left: 15%;
+    position: relative;
+    bottom: 5vh;
+}
+
+
+@media (max-width: 991px) {
+    .contactBird{
+        width: 25%;
+        margin-left: 0%;
+        bottom: 1vh;
+    }
+    .contactContainer{
+        margin-left: 0%;
+        position: relative;
+        left: -5%;
+    }
+    input[type=text], input[type=email], textarea {
+        width: 115%;
+        margin-left: 7%;
+        margin-top: 7;
+        margin-bottom: 3%;
+    }
+    .contactInfo {
+        margin-left: 10%;
+    }
+    h3{
+        position: relative;
+        right: 10%;
+    }
+  }
+
+  
+
+  @media (max-width: 480px) {
+    .contactBird{
+        width: 60%;
+        margin-left: 15%;
+        bottom: -50vh;
+    }
+    h3{
+        padding: 0;
+        margin: 0;
+    }
+    .contactContainer{
+        margin-left: 0%;
+        left: -70%;
+    }
+    .contactInfo {
+        width: 120px;
+        margin-left: 85%;
+        overflow-wrap: break-word;
+    }
+    input[type=text], input[type=email], textarea {
+        width: 250%;
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+  }

@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body {
+  font-family: "Annie Use Your Telescope", cursive;
+    font-size: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  overflow-x: hidden;
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+}
+
+button, input[type=submit] {
+  background-color: rgb(175, 200, 250);
+  border-color: white;
+  border-style: dashed;
+  border-radius: 2px;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+button:hover, input[type=submit]:hover {
+  background-color: rgb(146, 174, 230);
+}
+
+button, select{
+  cursor: pointer;
+  font-family: "Annie Use Your Telescope", cursive;
+}
+
+.header {
+  width: 100%;
+  background: url("head.jpg");
+  position:absolute;
+  top:0px;
+}
+
+.headLink {
+  color: white;
+  position: relative;
+  bottom:2.5vh;
+  font-weight: bold;
+}
+
+.headSocial {
+  color: white;
+  position: relative;
+  bottom:2vh;
+  font-weight: bold;
+}
+
+.headBird{
+  width: 4%;
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: rgb(175, 200, 250);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  width: 375px;
+  position: absolute;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.imageLoading {
+  background-color: white;
+  position: absolute;
+  top:2.5%;
+  width: 100%;
+  height:100%;
+  padding-top: 25%;
+}
+
+
+@media (max-width: 991px) {
+  .footer {
+    bottom:0px;
   }
-  to {
-    transform: rotate(360deg);
+  .imageLoading {
+    top:2%;
+  }
+  .headLink {
+    bottom:1vh;
+  }
+  
+  .headSocial {
+    bottom:0.5vh;
+  }
+  
+  .headBird{
+    width: 4.5%;
+  }
+
+  body {
+    background: url("background-mid.jpg");
+  }
+}
+
+@media (max-width: 480px) {
+  .imageLoading {
+    top:70px;
+  }
+  .headLink {
+    bottom:2.5vh;
+  }
+  
+  .headSocial {
+    bottom:2vh;
+  }
+  
+  .headBird{
+    width: 10%;
+    position: relative;
+    top:1.5vh;
+  }
+  .insideTitle{
+    position: relative;
+    left: 2px;
+    top:2px;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    background: url("background-small.jpg");
   }
 }

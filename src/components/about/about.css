@@ -1,0 +1,33 @@
+.aboutP{
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.aboutBird{
+    width: 10%;
+    position: relative;
+    top:15vh;
+    right: 5%;
+}
+
+
+@media (max-width: 991px) {
+    .aboutBird{
+        width: 20%;
+    }
+  }
+
+  
+
+  @media (max-width: 480px) {
+    .aboutBird{
+        top:0vh;
+        width: 80%;
+    }
+    .aboutP{
+        width: 90%;
+        text-align: justify;
+    }
+  }

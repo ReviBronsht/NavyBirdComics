@@ -1,0 +1,19 @@
+
+.notfoundBird{
+    width: 25%;
+}
+
+
+@media (max-width: 991px) {
+    .notfoundBird{
+        width: 40%;
+    }
+  }
+
+  
+
+  @media (max-width: 480px) {
+    .notfoundBird{
+        width: 50%;
+    }
+  }
