@@ -1,9 +1,12 @@
 GitHub link: https://github.com/ReviBronsht/NavyBirdComics
 
 Portfolio website project to view comics and illustrations
+
+Frontend in React.js, Backend in Node.js and express, with a MongoDB database
+Deployed on AWS using Docker and Nginx
 ########################################################################################################################
 
-The Server (backend):
+The Server (backend)
 
 Initialization: Using the terminal, make sure to first cd into the backend directory. To start the server, use the following command: npm start. Contingent upon starting up the client (frontend) concurrently, the server will start serving requests from the client. The server is initialized either on the port defined as an environment variable PORT or 3001.
 
@@ -15,7 +18,9 @@ Mongoose Models: imageModel.js is utilized.
 
 ########################################################################################################################
 
-The Client (frontend): Allows user to view comics comics and illustrations.
+The Client (frontend)
+
+Allows user to view comics comics and illustrations.
 
 ########################################################################################################################
 
