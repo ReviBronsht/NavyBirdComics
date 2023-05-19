@@ -24,6 +24,9 @@ Mongoose Models: imageModel.js is utilized.
 
 Allows user to view comics comics and illustrations.
 
+Illustrations are presented in a responsive gallery view.
+Comics are shown in a comics reader based on the current comic shown, and allows users to add comments.
+
 
 ![image](https://github.com/ReviBronsht/NavyBirdComics/assets/97298035/cb15f366-3c2a-482a-9417-9f7869e5c630)
 ![image](https://github.com/ReviBronsht/NavyBirdComics/assets/97298035/366b744e-a9c8-48a7-8b7e-56a3e22515a9)
